@@ -4,6 +4,8 @@
       <img [src]="image().src" [alt]="image().alt"/>
       <h2>{{ title() }}</h2>
     </header>
+<!--    this ng-content is called Content Projection, its similar to {{children}} in React js-->
+    <ng-content/>
   </article>
 </div>
 
